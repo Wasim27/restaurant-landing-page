@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: #ffffff;
+    font-family:'Bebas Neue';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav ul li a{
+  font-family: 'Bebas Neue';
+	line-height: 43px;
+	padding: 0px 10px;
+	display: flex;
+	font-size: 1.2rem;
+	color:#868685;
+  border-radius: 3px;
+  transition: 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+nav ul li a:hover{
+	background-color: #750512;
+  color:#fdf9f97e;
+	box-shadow: 5px 10px 30px rgba(187, 184, 184, 0.336);
+	transition: all ease 0.2s;
 }
