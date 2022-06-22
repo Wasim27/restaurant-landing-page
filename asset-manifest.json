@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a3882ff4.css",
+    "main.js": "/static/js/main.08c3de75.js",
+    "static/media/burger-vector.webp": "/static/media/burger-vector.38f3bd4ef0331cfc507c.webp",
+    "static/media/gourmet-burger.jpg": "/static/media/gourmet-burger.145c12517b05449000b0.jpg",
+    "static/media/order.png": "/static/media/order.3809531c5c93a3b42cf3.png",
+    "static/media/deliver-food.png": "/static/media/deliver-food.b277b05d182c294fc85d.png",
+    "static/media/street-food.png": "/static/media/street-food.c2dceddb4258a8f8602e.png",
+    "index.html": "/index.html",
+    "main.a3882ff4.css.map": "/static/css/main.a3882ff4.css.map",
+    "main.08c3de75.js.map": "/static/js/main.08c3de75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3882ff4.css",
+    "static/js/main.08c3de75.js"
+  ]
+}
