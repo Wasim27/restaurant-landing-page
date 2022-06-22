@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 A front-end practice project with React, TailwindCSS and more...
-[Demo](https://wasim27.github.io/restaurant-landing-page/)
+[Demo](https://restaurant-landing-page-eight.vercel.app/)
 
 ## Available Scripts
 
