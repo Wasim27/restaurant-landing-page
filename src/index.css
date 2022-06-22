@@ -4,14 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    margin:0px;
-    padding: 0px;
-    background-color: #ffffff;
-    font-family:'Bebas Neue';
+body {
+  margin:0px;
+  padding: 0px;
+  background-color: #ffffff;
+  font-family:'Bebas Neue';
 }
 
-nav ul li a{
+nav ul li a {
   font-family: 'Bebas Neue';
 	line-height: 43px;
 	padding: 0px 10px;
@@ -23,9 +23,69 @@ nav ul li a{
 	cursor: pointer;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
 	background-color: #750512;
   color:#fdf9f97e;
 	box-shadow: 5px 10px 30px rgba(187, 184, 184, 0.336);
 	transition: all ease 0.2s;
+}
+
+.primary-btn {
+  background-color: hsl(228, 67%, 18%);
+  padding: 9px 20px;
+  border-radius: 8px;
+  color: white;
+  border-radius: 12px;
+}
+
+.order-btn {
+  background-color: hsl(350, 84%, 24%);
+  padding: 9px 20px;
+  border-radius: 8px;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+
+.book-btn {
+  background-color: hsl(209, 91%, 25%);
+  padding: 9px 20px;
+  border-radius: 8px;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.primary-btn-big {
+  background-color: hsl(128, 93%, 16%);
+  border-radius: 8px;
+  color: white;
+  border-radius: 12px;
+}
+
+nav{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width:100%;
+	z-index: 1;
+    background-color: transparent;
+    transition: 0.6s ease-in-out;
+}
+nav.active{
+	box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.157);
+	background-color: #262626;
+  opacity: 0.4;
+}
+
+@media(max-width:768px) {
+  nav {
+    position: initial;
+  	background-color: #262626;
+  }
+  
+  nav.active {
+  opacity: 1;
+  }
 }
